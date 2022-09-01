@@ -2,11 +2,11 @@
 
 ```mermaid
 sequenceDiagram
-    par Alice to Bob
-        Alice->>Bob: Hello guys!
-    and Alice to John
-        Alice->>John: Hello guys!
-    end
-    Bob-->>Alice: Hi Alice!
-    John-->>Alice: Hi Alice!
+    usuario->>1er digito: interfaz
+    1er digito->>2do digito: interfaz
+    operador->>2do sigito: interfaz
+    2do digito-->>resultado: operacion
+    resultado->>2do digito: operacion realizada
+    2do digito->>1er digito: validacion de datos
+    1er digito->>usuario: mostrar resultado 
 ```
