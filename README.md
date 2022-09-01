@@ -7,7 +7,7 @@ sequenceDiagram
     operador->>2do digito: interfaz
     2do digito-->>resultado: operacion
     resultado->>operador: operacion realizada
-    operador->>2do digirto: datos
+    operador->>2do digito: datos
     2do digito->>1er digito: validacion de datos
     1er digito->>usuario: mostrar resultado 
 ```
