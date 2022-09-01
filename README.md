@@ -2,9 +2,9 @@
 
 ```mermaid
 sequenceDiagram
-    usuario->>calculadora:operacion
     usuario->>calculadora:ingresar(num1,num2,etc.)
-    calculadora->>usuario:operacion
+    usuario->>calculadora:realizar operacion
+    calculadora->>usuario:validar 
     calculadora->>usuario:mostrar resultado
     
     
